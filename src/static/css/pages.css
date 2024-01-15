@@ -1,0 +1,166 @@
+.main{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 66px;
+  
+  }
+  
+  .landing {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .landing-header {
+    background-color: #ecb589;
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* .product-img{
+    height: 60%;
+    width: 100%;
+    padding: 10px;
+  } */
+  
+  .product-img {
+    height: 300px; /* Set the desired height */
+    width: 100%; /* Full width within its container */
+    padding: 10px;
+    object-fit: cover; /* You can use 'contain' or other values based on your preference */
+  }
+  
+  
+  .box-element{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0099cc;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #0077aa;
+  }
+  
+  /* Add these styles to your global CSS */
+  html, body, #root {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  #root {
+    flex: 1;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  .box-element{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  
+
+  .product-img{
+    height: 60%;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .btn{
+      border-radius: 0;
+  }
+  
+  .row-image{
+      width: 100px;
+  }
+  
+  .form-field{
+      width:250px;
+      display: inline-block;
+      padding: 5px;
+  }
+  
+  .cart-row{
+      display: flex;
+      align-items: flex-stretch;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ececec;
+  
+  }
+  
+  .quantity{
+      display: inline-block;
+      font-weight: 700;
+      padding-right:10px;
+  
+  
+  }
+  
+  .chg-quantity{
+      width: 12px;
+      cursor: pointer;
+      display: block;
+      margin-top: 5px;
+      transition:.1s;
+  }
+  
+  .chg-quantity:hover{
+      opacity: .6;
+  }
+  
+  
+  .hidden{
+      display: none!important;
+  }
+  
+  button{
+    outline: hidden;
+  }
+  
+  .th{
+    text-align: center;
+  }

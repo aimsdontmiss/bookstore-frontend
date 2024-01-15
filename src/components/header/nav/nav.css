@@ -1,0 +1,23 @@
+/* Default style for the header */
+.nav-header {
+    background-color: transparent; /* Set the default background color */
+    /* Add other styles for the non-sticky header if needed */
+  }
+  
+  /* Style for the sticky header */
+  .sticky-nav-header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Set the background color for the sticky header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a box shadow if desired */
+    /* Add other styles for the sticky header if needed */
+  }
+  
+  .custom-navbar {
+    background-color: #181c3b;
+    /* You can use any valid CSS color value */
+  }
+  
+  .custom-header {
+    background-color: #fdf6bf7a;
+  }

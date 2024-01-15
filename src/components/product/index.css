@@ -1,0 +1,19 @@
+.box-element{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.product-img{
+    height: 60%;
+    width: 100%;
+    padding: 10px;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
